@@ -1,0 +1,16 @@
+apiVersion: falcon.crowdstrike.com/v1alpha1
+kind: FalconDeployment
+metadata:
+  name: test-falcon-deployment
+spec:
+  falcon_api:
+    client_id: "REPLACE_ME"
+    client_secret: "REPLACE_ME"
+  node:
+    enabled: true
+  container:
+    enabled: true
+  admission:
+    enabled: true
+  imageanalyzer:
+    enabled: true

@@ -1,0 +1,6 @@
+apiVersion: falcon.crowdstrike.com/v1alpha1
+kind: FalconAdmission
+metadata:
+  name: test-admission
+spec:
+  mode: enforce

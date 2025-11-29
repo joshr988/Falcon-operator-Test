@@ -1,0 +1,7 @@
+falcon:
+  client_id: "YOUR_ID"
+  client_secret: "YOUR_SECRET"
+  node: true
+  container: true
+  admission: true
+  imageanalyzer: true

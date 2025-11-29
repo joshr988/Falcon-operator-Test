@@ -1,0 +1,11 @@
+apiVersion: falcon.crowdstrike.com/v1alpha1
+kind: FalconNodeSensor
+metadata:
+  name: test-nodesensor
+spec:
+  falcon_api:
+    client_id: "REPLACE_ME"
+    client_secret: "REPLACE_ME"
+  node:
+    tags:
+      - "test-node"

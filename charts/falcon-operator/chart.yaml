@@ -1,0 +1,6 @@
+apiVersion: v2
+name: falcon-operator-test
+description: A test module for deploying CrowdStrike Falcon Operator CRs
+type: application
+version: 0.1.0
+appVersion: "1.0.0"

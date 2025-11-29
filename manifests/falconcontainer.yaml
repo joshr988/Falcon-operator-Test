@@ -1,0 +1,10 @@
+apiVersion: falcon.crowdstrike.com/v1alpha1
+kind: FalconContainer
+metadata:
+  name: test-container
+spec:
+  registry:
+    type: "dockerhub"
+  falcon_api:
+    client_id: "REPLACE_ME"
+    client_secret: "REPLACE_ME"

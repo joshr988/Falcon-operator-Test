@@ -1,0 +1,20 @@
+apiVersion: falcon.crowdstrike.com/v1alpha1
+kind: FalconDeployment
+metadata:
+  name: {{ include "falcon-operator-test.fullname" . }}
+spec:
+  falcon_api:
+    client_id: {{ .Values.falcon.client_id | quote }}
+    client_secret: {{ .Values.falcon.client_secret | quote }}
+
+  node:
+    enabled: {{ .Values.falcon.node }}
+
+  container:
+    enabled: {{ .Values.falcon.container }}
+
+  admission:
+    enabled: {{ .Values.falcon.admission }}
+
+  imageanalyzer:
+    enabled: {{ .Values.falcon.imageanalyzer }}
