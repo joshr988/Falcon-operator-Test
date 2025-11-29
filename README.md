@@ -1,9 +1,4 @@
-Below is a **polished, production-ready README.md** for your **Falcon Operator Test Module**.
-This version highlights **CrowdStrike credentials**, **API scopes**, **environment variables**, and **Secrets Manager best practices** for real deployments.
 
-You can copy/paste this directly into your GitHub repo.
-
----
 
 #  **Falcon Operator Test Module**
 
